@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav_ul li {
+  padding: 0 0.9rem;
+}
+
+.nav_ul a {
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.btn1 {
+  border: 0;
+  padding: 0.5rem 1.8rem;
+  color: #fff;
+  background-color: #01193c;
+}
+
+.btn2 {
+  border: 0;
+  padding: 0.5rem 1.2rem;
+  color: #fff;
+  background-color: #f60838;
+}
+
+.home_1 h2 {
+  font-weight: 400;
+  color: blue;
+  letter-spacing: 0.7px;
+}
+
+.home_1 span {
+  color: #f60838;
+}
+
+.home_1 h1 {
+  font-weight: 800;
+  font-size: 3.7rem;
+  letter-spacing: 0.7px;
+}
+
+.home_1 h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 0.7px;
+  padding-top: 0.6rem;
+}
+.home_1 p {
+  padding: 1rem 2rem 1rem 0;
+  font-size: 1.09rem;
+}
+.home_1 button {
+  padding: 0.7rem 1.7rem;
+  border-radius: 0;
+  background: #f60838;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+.home_1 button:hover {
+  background: #01193c;
+  color: #fff;
+}
+.home_2 img {
+  background: #f8f9fa;
+  padding: 3rem;
+}
+/* */
+.follow-main {
+  background: #f8f9fa;
+  padding: 3rem;
+}
+.follow-main h3 {
+  font-weight: 400;
+}
+.follow-main p {
+  padding: 0.5rem;
+}
+/**/ 
+.Footer {
+  padding: 2rem 0;
+}
+
+.ft-1 h3 {
+  font-weight: 700;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+}
+
+.ft-1 span {
+  color: #f60838;
+}
+
+.ft-1 p {
+  padding: 0rem 5rem 0.8rem 0;
+  font-weight: 500;
+}
+
+.footer-icons i {
+  padding: 0.4rem 0.5rem;
+  background: #e1e1e1;
+  color: #f60838;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+}
+
+.footer-icons i:hover {
+  background: #f60838;
+  color: #fff;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.Footer h5 {
+  color: #f60838;
+}
+
+.ft-2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ft-2 ul li {
+  padding: 0.35rem 0;
+  font-weight: 500;
+}
+
+.ft-2 ul Link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.06rem;
+}
+
+.ft-3 p {
+  font-weight: 500;
+  padding: 0.1rem 0;
+  font-size: 1.06rem;
+}
+
+.ft-3 i {
+  padding-right: 0.5rem;
+}
+
+.Last-footer {
+  background: #f60838;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.Last-footer p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+:root {
+  --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+}
+
+.btn {
+  border: 5px solid;
+  border-image-slice: 1;
+  background: var(--gradient) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  border-image-source:  var(--gradient) !important; 
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+.btn:hover, .btn:focus {
+      background: var(--gradient) !important;
+  -webkit-background-clip: none !important;
+  -webkit-text-fill-color: #fff !important;
+  border: 5px solid #fff !important; 
+  box-shadow: #222 1px 0 10px;
+  text-decoration: underline;
+}
+.dark-card {
+  background: #222;
+  border: 2px solid #dd2476;
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 2rem;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: white;
+}
+
+/* Light mode */
+.light-card {
+  background: #f8f9fa;
+  border: 2px solid #dee2e6;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Set position relative for the App container */
+.app {
+  position: relative;
+}
+
+/* Style your particle canvas to ensure it doesn't cover links */
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensure it's behind other content */
+  /* Add more styling as needed */
+}
+
+/* Loader */
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 80px;
+  height: 80px;
+  padding-left: 0;
+}
+.loader:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fa9c23;
+  border-color: #fa9c23 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add Project */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.form-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 650px;
+  width: 100%;
+}
